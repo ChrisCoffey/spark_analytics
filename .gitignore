@@ -1,3 +1,9 @@
 *.zip
 *.csv
 documentation
+*.idea
+*.box
+*.iml
+
+.idea/
+target/
