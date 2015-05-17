@@ -36,7 +36,8 @@ object SparkFun extends Build {
     settings = coreSettings
   ).aggregate (
     chapter2,
-    chapter3
+    chapter3,
+    chapter4
   )
 
   lazy val chapter2 = Project(
@@ -51,4 +52,9 @@ object SparkFun extends Build {
     settings = coreSettings
   )
 
+  lazy val chapter4 = Project(
+    id="decisionTree",
+    base=file("./chapter4_decisionTree"),
+    settings = coreSettings
+  )
 }
