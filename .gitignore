@@ -4,6 +4,8 @@ documentation
 *.idea
 *.box
 *.iml
+*.txt
 
+data/
 .idea/
 target/
