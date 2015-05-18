@@ -5,6 +5,7 @@ documentation
 *.box
 *.iml
 *.txt
+*.info
 
 data/
 .idea/
